@@ -65,31 +65,14 @@ public class MainMenuPanel extends JPanel {
 		play.setFont(new Font("Orange Kid", Font.BOLD, 36));
 		play.setForeground(Color.BLACK);
 		play.addMouseListener(new MouseListener() {
-
-			@Override
-			public void mouseReleased(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent arg0) {
 				play.setForeground(Color.BLACK);
-
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent arg0) {
 				play.setForeground(Color.YELLOW);
-
 			}
-
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				MainMenuFrame.window.remove(MainMenuPanel.this);
@@ -103,31 +86,14 @@ public class MainMenuPanel extends JPanel {
 		howToPlay.setFont(new Font("Orange Kid", Font.BOLD, 36));
 		howToPlay.setForeground(Color.BLACK);
 		howToPlay.addMouseListener(new MouseListener() {
-
-			@Override
-			public void mouseReleased(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent arg0) {
 				howToPlay.setForeground(Color.BLACK);
-
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent arg0) {
 				howToPlay.setForeground(Color.YELLOW);
-
 			}
-
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				MainMenuFrame.window.remove(MainMenuPanel.this);
@@ -142,32 +108,17 @@ public class MainMenuPanel extends JPanel {
 		exit.setForeground(Color.BLACK);
 		exit.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				exit.setForeground(Color.BLACK);
-
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				exit.setForeground(Color.YELLOW);
-
 			}
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				System.exit(0);
-
 			}
 		});
 		add(exit);
