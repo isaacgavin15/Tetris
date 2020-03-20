@@ -106,29 +106,16 @@ public class HowToPlayPanel extends JPanel {
 		lbl_title.setForeground(Color.BLUE);
 		lbl_title.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_title.setForeground(Color.BLUE);
 				stat = 0;
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				lbl_title.setForeground(Color.RED);
 				stat = 1;
 
 			}
-
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
 				// TODO Auto-generated method stub
@@ -143,33 +130,14 @@ public class HowToPlayPanel extends JPanel {
 		lbl_up.setForeground(Color.BLACK);
 		lbl_up.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_up.setForeground(Color.BLACK);
 				stat = 0;
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				lbl_up.setForeground(Color.RED);
 				stat = 1;
-
-			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
 			}
 		});
 		add(lbl_up);
@@ -180,17 +148,6 @@ public class HowToPlayPanel extends JPanel {
 		lbl_down.setForeground(Color.BLACK);
 		lbl_down.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_down.setForeground(Color.BLACK);
 				stat = 0;
@@ -200,13 +157,6 @@ public class HowToPlayPanel extends JPanel {
 			public void mouseEntered(MouseEvent e) {
 				lbl_down.setForeground(Color.RED);
 				stat = 2;
-
-			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
 			}
 		});
 		add(lbl_down);
@@ -217,32 +167,14 @@ public class HowToPlayPanel extends JPanel {
 		lbl_left.setForeground(Color.BLACK);
 		lbl_left.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_left.setForeground(Color.BLACK);
 				stat = 0;
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				lbl_left.setForeground(Color.RED);
 				stat = 3;
-			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
 			}
 		});
 		add(lbl_left);
@@ -253,32 +185,14 @@ public class HowToPlayPanel extends JPanel {
 		lbl_right.setForeground(Color.BLACK);
 		lbl_right.addMouseListener(new MouseListener() {
 			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
-			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_right.setForeground(Color.BLACK);
 				stat = 0;
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
 				lbl_right.setForeground(Color.RED);
 				stat = 4;
-			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
 			}
 		});
 		add(lbl_right);
@@ -288,17 +202,6 @@ public class HowToPlayPanel extends JPanel {
 		lbl_shift.setFont(new Font("Orange Kid", Font.BOLD, 20));
 		lbl_shift.setForeground(Color.BLACK);
 		lbl_shift.addMouseListener(new MouseListener() {
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_shift.setForeground(Color.BLACK);
@@ -310,12 +213,6 @@ public class HowToPlayPanel extends JPanel {
 				lbl_shift.setForeground(Color.RED);
 				stat = 5;
 			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
 		});
 		add(lbl_shift);
 
@@ -324,17 +221,6 @@ public class HowToPlayPanel extends JPanel {
 		lbl_space2.setFont(new Font("Orange Kid", Font.BOLD, 20));
 		lbl_space2.setForeground(Color.BLACK);
 		lbl_space2.addMouseListener(new MouseListener() {
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_space2.setForeground(Color.BLACK);
@@ -346,12 +232,6 @@ public class HowToPlayPanel extends JPanel {
 				lbl_space2.setForeground(Color.RED);
 				stat = 7;
 			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
 		});
 		add(lbl_space2);
 
@@ -360,17 +240,6 @@ public class HowToPlayPanel extends JPanel {
 		lbl_space.setFont(new Font("Orange Kid", Font.BOLD, 20));
 		lbl_space.setForeground(Color.BLACK);
 		lbl_space.addMouseListener(new MouseListener() {
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent e) {
 				lbl_space.setForeground(Color.BLACK);
@@ -382,31 +251,14 @@ public class HowToPlayPanel extends JPanel {
 				lbl_space.setForeground(Color.RED);
 				stat = 6;
 			}
-
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				// TODO Auto-generated method stub
-
-			}
 		});
 		add(lbl_space);
-
+		
 		back = new JLabel("BACK TO MAIN MENU", JLabel.CENTER);
 		back.setBounds(70, 570, 500, 50);
 		back.setFont(new Font("Orange Kid", Font.BOLD, 20));
 		back.setForeground(Color.BLUE);
 		back.addMouseListener(new MouseListener() {
-			@Override
-			public void mouseReleased(MouseEvent e) {
-				// TODO Auto-generated method stub
-
-			}
-
-			@Override
-			public void mousePressed(MouseEvent e) {
-
-			}
-
 			@Override
 			public void mouseExited(MouseEvent e) {
 				back.setForeground(Color.BLUE);
