@@ -310,9 +310,9 @@ public class Board extends JPanel implements KeyListener {
 		return borderY;
 	}
 
-	public boolean getGameOver() {
-		return gameOver;
-	}
+// 	public boolean getGameOver() {
+// 		return gameOver;
+// 	}
 
 	public int getBorderX() {
 		return borderX;
